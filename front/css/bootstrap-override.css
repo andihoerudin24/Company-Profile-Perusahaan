@@ -1,0 +1,195 @@
+/*  Resolutions below 1200px  */
+            
+@media (max-width: 1200px) {
+
+  #header {
+	  height:auto;
+  }  
+  #titlebar h3{ padding-left:10px;}
+  .texture{
+    left:-148px;
+    width:560px;
+  }
+
+  .texture-footer {
+    width:68%;
+    right:-130px;    
+  }    
+  
+  .logo {
+    margin-top:60px;
+  }
+
+  .form-main input, .form-main textarea {
+    width:93.7%;
+  }
+  
+  .form-comment input {
+    width:92.2%;
+  }    
+  
+  .form-comment textarea {
+    width:96.2%;  
+  }  
+  
+  #map {
+    height:220px;
+  }
+    
+}  
+
+/*  Resolutions below 980px  */
+
+@media (max-width: 980px) {
+
+  #header {
+    height:auto;
+  }  
+  
+  .texture{
+    left:-116px;
+    width:440px;
+  }
+
+  .texture-footer {
+    width:70%;
+    top:0px;
+    right:-102px;    
+  }   
+  
+  .logo {
+    margin-top:45px;
+  }
+
+  .form-main input, .form-main textarea {
+    width:92%;
+  }
+  
+  .form-comment input {
+    width:89.5%;
+  }    
+  
+  .form-comment textarea {
+    width:95%;  
+  }  
+  
+  #map {
+    height:166px;
+  }  
+    
+}  
+
+/*  Resolutions below 768px  */
+
+@media (max-width: 768px) {
+
+  #header, #footer, #content {
+    padding:0 12px;
+  }
+  
+  #header {
+    height:auto;
+  }  
+  
+  .h-button {
+    position:relative;
+  }
+  
+  #our-clients img {
+    width:auto !important;
+    float:left;
+  }
+
+  .f-right {
+    float:left !important;
+  }
+
+  .right {
+    text-align:left !important;
+  }
+  
+  .text-1 {
+    padding:0px !important;
+  }
+  
+  .back-top {
+    top:0px !important;
+    float:left !important;
+  }
+
+  .search-box {
+    clear:both;
+  }
+  
+  .search {
+    width:83%;
+    padding-left:2%;
+  }
+
+  /* vertical padding for span* */
+  [class*="span"] {
+    margin-bottom: 12px !important;
+  }
+  
+  /* height of space* */
+  [class*="space"] {
+    height:10px !important;
+  }
+  
+  h1 {
+    padding-top:0px;
+  }
+  
+    /* Main Navigation - Hidden */
+  .navbar .nav {
+    display:none !important;
+  }
+
+  .navbar {
+    float:left !important;
+    width:100%;
+  }
+
+  /* Select Box Navigation - Show */
+  .navbar .nav-responsive {
+    display:block !important;
+    width:100%;
+    clear:both;
+  }
+  
+  .logo {
+    width:200px;
+  }
+
+  .texture {
+    display:none !important;
+  }
+
+  .texture-footer {
+    display:none;
+  }  
+
+  .form-main input, .form-main textarea {
+    width:96%;
+    padding-left:2%;    
+    padding-right:2%;
+  }
+  
+  .form-comment input {
+    width:92%;
+    padding-left:2%;    
+    padding-right:2%;
+  }    
+  
+  .form-comment textarea {
+    width:92%;
+    padding-left:2%;    
+    padding-right:2%;
+  }  
+
+}
+
+
+
+
+
